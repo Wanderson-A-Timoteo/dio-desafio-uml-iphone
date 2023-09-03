@@ -1,8 +1,10 @@
 package br.com.wandersontimoteo.diodesafioumliphone.entities;
 
+import br.com.wandersontimoteo.diodesafioumliphone.entities.interfaces.NavegadorInternet;
+
 import java.util.Objects;
 
-public class Iphone {
+public class Iphone implements NavegadorInternet {
 
     private Long id;
     private String modelo;
@@ -121,5 +123,25 @@ public class Iphone {
     @Override
     public int hashCode() {
         return Objects.hash(getId());
+    }
+
+    @Override
+    public void exibirPagina() {
+
+    }
+
+    @Override
+    public void atualizarPagina() {
+
+    }
+
+    @Override
+    public void adicionarNovaAba() {
+
+    }
+
+    @Override
+    public void excluirPagina() {
+
     }
 }
