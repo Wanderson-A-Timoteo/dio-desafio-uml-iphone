@@ -129,66 +129,66 @@ public class Iphone implements NavegadorInternet, ReprodutorMusical, Telefone {
 
     @Override
     public void exibirPagina() {
-
+        System.out.println("Exibir Pagina");
     }
 
     @Override
     public void atualizarPagina() {
-
+        System.out.println("Atualizar Pagina");
     }
 
     @Override
     public void adicionarNovaAba() {
-
+        System.out.println("Adicionar Nova Aba no Navegador");
     }
 
     @Override
     public void excluirPagina() {
-
+        System.out.println("Excluir Pagina");
     }
 
     @Override
     public void iniciarMusica() {
-
+        System.out.println("Iniciar Musica");
     }
 
     @Override
     public void pararMusica() {
-
+        System.out.println("Parar Musica");
     }
 
     @Override
     public void selecionarMusica() {
-
+        System.out.println("Selecionar Musica");
     }
 
     @Override
     public void criarListaMusica() {
-
+        System.out.println("Criar Lista de Musica");
     }
 
     @Override
     public void excluirListaMusica() {
-
+        System.out.println("Excluir Lista de Musica");
     }
 
     @Override
     public void fazerLigacao() {
-
+        System.out.println("Fazer Ligacao");
     }
 
     @Override
     public void atenderLigacao() {
-
+        System.out.println("Atender Ligacao");
     }
 
     @Override
     public void correioVoz() {
-
+        System.out.println("Correio de Voz");
     }
 
     @Override
     public void excluirMensagemCorreioVoz() {
-
+        System.out.println("Excluir Mensagem do Correio de Voz");
     }
 }
