@@ -2,10 +2,11 @@ package br.com.wandersontimoteo.diodesafioumliphone.entities;
 
 import br.com.wandersontimoteo.diodesafioumliphone.entities.interfaces.NavegadorInternet;
 import br.com.wandersontimoteo.diodesafioumliphone.entities.interfaces.ReprodutorMusical;
+import br.com.wandersontimoteo.diodesafioumliphone.entities.interfaces.Telefone;
 
 import java.util.Objects;
 
-public class Iphone implements NavegadorInternet, ReprodutorMusical {
+public class Iphone implements NavegadorInternet, ReprodutorMusical, Telefone {
 
     private Long id;
     private String modelo;
@@ -168,6 +169,26 @@ public class Iphone implements NavegadorInternet, ReprodutorMusical {
 
     @Override
     public void excluirListaMusica() {
+
+    }
+
+    @Override
+    public void fazerLigacao() {
+
+    }
+
+    @Override
+    public void atenderLigacao() {
+
+    }
+
+    @Override
+    public void correioVoz() {
+
+    }
+
+    @Override
+    public void excluirMensagemCorreioVoz() {
 
     }
 }
