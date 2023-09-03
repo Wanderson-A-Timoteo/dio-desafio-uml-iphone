@@ -1,4 +1,4 @@
-package br.com.wandersontimoteo.diodesafioumliphone.entities;
+package br.com.wandersontimoteo.diodesafioumliphone.entities.interfaces;
 
 public interface ReprodutorMusical {
     public void iniciarMusica();
